@@ -28,21 +28,21 @@ Year : 2023
 }
 
 @font-face {
-  src: url("/dist/fonts/NeueMontreal-Medium.otf") format("truetype");
+  src: url("../../fonts/NeueMontreal-Medium.otf") format("truetype");
   font-family: "NeueMontreal";
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/dist/fonts/NeueMontreal-Light.otf") format("truetype");
+  src: url("../../fonts/NeueMontreal-Light.otf") format("truetype");
   font-family: "NeueMontreal";
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  src: url("/dist/fonts/NeueMontreal-Regular.otf") format("truetype");
+  src: url("../../fonts/NeueMontreal-Regular.otf") format("truetype");
   font-family: "NeueMontreal";
   font-weight: 400;
   font-style: normal;
