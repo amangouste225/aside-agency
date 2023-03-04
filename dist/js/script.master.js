@@ -179,3 +179,5 @@ function toggle_mobile_nav() {
 
   $("body").toggleClass("ov-h")
 }
+
+// Preloader
