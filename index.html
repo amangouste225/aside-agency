@@ -1,0 +1,2460 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aside Studio - Agence créative à Abidjan</title>
+    <meta
+      name="description"
+      content="Aside Studio, CV, Resume, Agency, Portfolio Template"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./dist/images/favicon.png" />
+
+    <!-- ~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~ -->
+    <link
+      rel="stylesheet"
+      href="./dist/css/css-ready/vendor/bootstrapv5-0-2/bootstrapv5-0-2.css"
+    />
+    <link rel="stylesheet" href="./distlibs/animate.min.css" />
+    <link rel="stylesheet" href="./dist/css/css-ready/styles.master.css" />
+    <script src="./dist/libs/jquery/jquery-3.6.0.min.js" defer></script>
+    <script src="./dist/libs/swiper-js/swiper-bundle.min.js" defer></script>
+    <script src="./dist/libs/wowjs/wow.min.js" defer></script>
+
+    <!-- ~~~~~~~~~~~~~~~~~ JS Files (Main JS) ~~~~~~~~~~~~~~~~~ -->
+    <script src="./dist/js/script.master.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  </head>
+  <body class="index-page" data-barba="wrapper">
+    <header
+      class="page-section header-section wow animate__animated animate__fadeIn"
+      data-wow-delay="0.05s"
+    >
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="header-section__content">
+            <div class="row">
+              <div class="row-col col-lg-5 col-md-4 col-6">
+                <div class="header-section__logo">
+                  <a href="index.html">
+                    <img src="./dist/images/logo.svg" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="row-col col-lg-7 col-md-8 col-6">
+                <div class="header-section__rp">
+                  <div class="header-section__nav">
+                    <a
+                      href="index.html"
+                      class="header-section__nav-active animate__fadeIn"
+                      data-wow-delay="0.07s"
+                    >
+                      Accueil
+                    </a>
+                    <a
+                      href="about-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.13s"
+                    >
+                      Agence
+                    </a>
+                    <a
+                      href="projects.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.09s"
+                    >
+                      Réalisations (15)
+                    </a>
+                    <a
+                      href="services.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.11s"
+                    >
+                      Services
+                    </a>
+
+                    <a
+                      href="contact-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.15s"
+                    >
+                      Contact
+                    </a>
+                  </div>
+                  <div class="header-section__cta">
+                    <a
+                      href="contact-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.30s"
+                    >
+                      <div class="btn btn-small">
+                        <span class="btn-small__text"> Contactez-nous </span>
+                        <span class="btn-small__icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24px"
+                            viewBox="0 0 24 24"
+                            width="24px"
+                            fill="#000000"
+                          >
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                              d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="header-section__burger">
+                    <div class="burger-btn" onclick="toggle_mobile_nav();">
+                      <span class="burger-btn__line burger-btn__line_1"></span>
+                      <span class="burger-btn__line burger-btn__line_2"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ~~~~~~~~~~~~~~~~~ Main navigation header [END] ~~~~~~~~~~~~~~~~~ -->
+
+    <!-- ~~~~~~~~~~~~~~~~~ Mobile navigation menu [START] ~~~~~~~~~~~~~~~~~ -->
+    <div class="mobile-navigation" data-uiel="mobile-navbar">
+      <div class="mobile-navigation__header">
+        <div class="row">
+          <div class="row-col col-6">
+            <div class="mobile-navigation__logo">
+              <a href="index.html">
+                <img src="./dist/images/logo.svg" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="row-col col-6">
+            <div class="mobile-navigation__close">
+              <span onclick="toggle_mobile_nav();">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-navigation__body">
+        <div class="mobile-navigation__links">
+          <a href="index.html" class="mobile-nav-active" data-wow-delay="0.10s">
+            <span class="link-text"> &#10059; Accueil </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="about-us.html">
+            <span class="link-text"> &#10059; Agence </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="projects.html">
+            <span class="link-text"> &#10059; Réalisations (15) </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="services.html">
+            <span class="link-text"> &#10059; Services </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+
+          <a href="contact-us.html">
+            <span class="link-text"> &#10059; Contact </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="mobile-navigation__cta">
+          <a href="contact-us.html" class="block-link">
+            <div class="btn btn-large">
+              <span class="btn-large__text">On commence un projet? </span>
+              <span class="btn-large__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section
+      class="page-section hero-section"
+      data-barba="container"
+      data-barba-namespace="home"
+    >
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="hero-section__content">
+            <div
+              class="hero-section__tp wow animate__animated animate__fadeIn"
+              data-wow-delay="0.20s"
+            >
+              <div class="row">
+                <div class="row-col col-xl-5 col-12">
+                  <div class="section-arrow">
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1 class="section-title">
+                    <span class="section-title__star">/&#10059;</span>Nous
+                  </h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="row-col col-12">
+                  <h1 class="section-title">
+                    construisons des relations fortes entre vous & vos
+                    clients<span class="section-title__star">&#10059;/</span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="hero-section__mp">
+              <div class="row">
+                <div class="row-col col-xl-5 col-md-12"></div>
+                <div
+                  class="row-col col-xl-7 col-md-12 wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.30s"
+                >
+                  <p class="section-description">
+                    Nous créeons pour vous et avec vous des expériences Web
+                    uniques.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Hero block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+        <span>nos réalisations &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Portfolio block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section portfolio-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="portfolio-section__content">
+            <div class="portfolio-section__tp">
+              <div class="row">
+                <div
+                  class="row-col col-lg-5 col-3 mobile-order-1 wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.10s"
+                >
+                  <h1
+                    class="section-title section-title_marginal"
+                    id="portfolio-section-title-num"
+                  >
+                    01
+                  </h1>
+                </div>
+                <div
+                  class="row-col col-lg-7 col-9 wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.20s"
+                >
+                  <h1 class="section-title">
+                    <span class="section-title__star">/&#10059;</span>
+                    nos<br />réalisations<span class="section-title__star"
+                      >&#10059;/</span
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="portfolio-section__bp wow animate__animated animate__fadeIn"
+              data-wow-delay="0.30s"
+            >
+              <div class="row align-items-stetch">
+                <div class="row-col col-xl-5 col-lg-12 col-12 mobile-order-1">
+                  <div class="portfolio-swiper-text">
+                    <div class="swiper" id="portfolio-description-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="slide-cont">
+                            <div class="slide-cont__badges">
+                              <span> UI/UX </span>
+                              <span> Branding </span>
+                              <span> Development </span>
+                              <span class="badge-marginal"> 2022 </span>
+                            </div>
+                            <p>
+                              Developing your own portfolio site. Brutalism,
+                              editorial, futurism, a bit of underground and a
+                              pinch of our own experiments
+                            </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="slide-cont">
+                            <div class="slide-cont__badges">
+                              <span> UI/UX </span>
+                              <span> Branding </span>
+                              <span> Development </span>
+                              <span class="badge-marginal"> 2023 </span>
+                            </div>
+                            <p>
+                              Yami is Speacialty Coffee Shop located in Porto
+                              Alegre, Brazil. With a unique selection of coffee
+                              beans from all over the world, Yami Café uses high
+                              quality methods to deliver the best coffee in town
+                            </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="slide-cont">
+                            <div class="slide-cont__badges">
+                              <span> Branding </span>
+                              <span> Development </span>
+                              <span class="badge-marginal"> 2021 </span>
+                            </div>
+                            <p>
+                              As the Venore family, we have updated the quality
+                              and innovative vision of the Hasat brand with a
+                              brand new design and a new corporate identity and
+                              packaging designs
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-controls">
+                      <button id="selected-works-slider-prev" class="btn-ctrl">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          enable-background="new 0 0 24 24"
+                          height="24px"
+                          viewBox="0 0 24 24"
+                          width="24px"
+                          fill="#000000"
+                        >
+                          <rect fill="none" height="24" width="24" />
+                          <path
+                            d="M9,19l1.41-1.41L5.83,13H22V11H5.83l4.59-4.59L9,5l-7,7L9,19z"
+                          />
+                        </svg>
+                      </button>
+                      <div class="swiper-controls__counter">
+                        <span id="portfolio-section-control-num">01</span>/3
+                      </div>
+                      <button id="selected-works-slider-next" class="btn-ctrl">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          enable-background="new 0 0 24 24"
+                          height="24px"
+                          viewBox="0 0 24 24"
+                          width="24px"
+                          fill="#000000"
+                        >
+                          <rect fill="none" height="24" width="24" />
+                          <path
+                            d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-lg-12 col-12">
+                  <div class="portfolio-swiper-image">
+                    <div class="swiper" id="portfolio-images-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="#" class="portfolio__img">
+                            <div class="slide-cont">
+                              <img
+                                src="./dist/images/portfolio/slider/case-1.jpg"
+                                alt="IMG"
+                              />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="slide-cont">
+                            <img
+                              src="./dist/images/portfolio/slider/case-2.jpg"
+                              alt="IMG"
+                            />
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="slide-cont">
+                            <img
+                              src="./dist/images/portfolio/slider/case-3.jpg"
+                              alt="IMG"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="row-col col-xl-5 col-md-12"></div>
+                <div class="row-col col-xl-7 col-md-12">
+                  <div class="portfolio-section__cta">
+                    <a
+                      href="#"
+                      class="d-block wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.30s"
+                    >
+                      <div class="btn btn-large">
+                        <span class="btn-large__text">
+                          Voir nos réalisations
+                        </span>
+                        <span class="btn-large__icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24px"
+                            viewBox="0 0 24 24"
+                            width="24px"
+                            fill="#000000"
+                          >
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                              d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Portfolio block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+        <span>agence web &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Aboutus block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section aboutus-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="aboutus-section__content">
+            <div class="aboutus-section__tp">
+              <div
+                class="row wow animate__animated animate__fadeIn"
+                data-wow-delay="0.10s"
+              >
+                <div class="row-col col-xl-5 col-12">
+                  <div class="section-arrow">
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1 class="section-title">
+                    <span class="section-title__star">/&#10059;</span>Nous
+                  </h1>
+                </div>
+                <div class="row-col col-12">
+                  <h1 class="section-title">
+                    donnons à votre entreprise de la créativité
+                    <span class="section-title__star">&#10059;/</span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="aboutus-section__bp">
+              <div
+                class="row wow animate__animated animate__fadeIn"
+                data-wow-delay="0.30s"
+              >
+                <div class="row-col col-xl-5">
+                  <div class="aboutus-section__description">
+                    <p class="section-description">
+                      NOUS SOMMES UNE AGENCE CRÉATIVE OÙ DES PROFESSIONNELS
+                      EXPÉRIMENTÉS ET DES TALENTS PROMETTEURS CRÉENT UNE
+                      CONCEPTION UI/UX QUI APPORTE DES RÉSULTATS IMPRESSIONNANTS
+                      POUR NOS CLIENTS.
+                    </p>
+
+                    <div class="aboutus-awards">
+                      <div class="aboutus-awards__title">
+                        100+ design awards
+                      </div>
+                      <div class="aboutus-awards__logos">
+                        <img src="/dist/images/awards/logo-1.png" alt="IMG" />
+                        <img src="/dist/images/awards/logo-2.png" alt="IMG" />
+                        <img src="/dist/images/awards/logo-3.png" alt="IMG" />
+                        <img src="/dist/images/awards/logo-4.png" alt="IMG" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7">
+                  <div class="aboutus-section__facts">
+                    <div class="facts">
+                      <div class="row">
+                        <div class="row-col col-xxl-4 col-sm-6 col-12">
+                          <div class="facts__item">
+                            <h3>+ 5</h3>
+                            <span>années d'expérience</span>
+
+                            <p>Nous accumulons de l'expérience depuis 2019</p>
+                          </div>
+                        </div>
+                        <div class="row-col col-xxl-4 col-sm-6 col-12">
+                          <div class="facts__item facts__item_accent">
+                            <h3>+100</h3>
+                            <span>Clients satisfaits</span>
+
+                            <p>
+                              Les clients nous aiment pour la qualité de chaque
+                              projet
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="row-col col-xxl-4 aboutus-section__circle-wrapper"
+                        >
+                          <div class="aboutus-section__circle">
+                            <a href="about-us.html">
+                              <div class="btn-circle">
+                                <div class="btn-circle__bg">
+                                  <svg
+                                    width="300"
+                                    height="300"
+                                    viewBox="0 0 300 300"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M5.97588 143.173L6.40682 142.475L6.05124 141.735L2.5747 134.505L7.4785 128.156L7.98006 127.506L7.70372 126.734L5.00198 119.18L10.5426 113.378L11.1093 112.784L10.9152 111.987L9.01789 104.192L15.1346 99.0011L15.7602 98.4702L15.6506 97.657L14.5784 89.7064L21.2043 85.1832L21.882 84.7206L21.8579 83.9004L21.6227 75.8813L28.685 72.0755L29.4074 71.6862L29.4692 70.868L30.0735 62.8683L37.4949 59.8215L38.254 59.5099L38.401 58.7026L39.8382 50.8098L47.5375 48.5555L48.3249 48.3249L48.5555 47.5375L50.8098 39.8382L58.7026 38.401L59.5099 38.254L59.8215 37.4949L62.8683 30.0735L70.868 29.4692L71.6862 29.4074L72.0755 28.685L75.8813 21.6227L83.9004 21.8579L84.7206 21.882L85.1832 21.2043L89.7064 14.5785L97.657 15.6506L98.4702 15.7602L99.0011 15.1346L104.192 9.01791L111.987 10.9152L112.784 11.1093L113.378 10.5426L119.18 5.00198L126.734 7.70373L127.506 7.98007L128.156 7.47851L134.505 2.5747L141.735 6.05123L142.475 6.40682L143.173 5.97588L150 1.76263L156.827 5.97588L157.525 6.40682L158.265 6.05123L165.495 2.5747L171.844 7.47851L172.494 7.98006L173.266 7.70373L180.82 5.00198L186.622 10.5426L187.216 11.1093L188.013 10.9152L195.808 9.01791L200.999 15.1346L201.53 15.7602L202.343 15.6506L210.294 14.5785L214.817 21.2043L215.279 21.8819L216.1 21.8579L224.119 21.6227L227.925 28.685L228.314 29.4074L229.132 29.4692L237.132 30.0734L240.178 37.4949L240.49 38.254L241.297 38.401L249.19 39.8382L251.444 47.5374L251.675 48.3249L252.463 48.5555L260.162 50.8098L261.599 58.7026L261.746 59.5099L262.505 59.8215L269.927 62.8683L270.531 70.868L270.593 71.6862L271.315 72.0755L278.377 75.8813L278.142 83.9004L278.118 84.7206L278.796 85.1832L285.422 89.7064L284.349 97.657L284.24 98.4702L284.865 99.0011L290.982 104.192L289.085 111.987L288.891 112.784L289.457 113.378L294.998 119.18L292.296 126.734L292.02 127.506L292.521 128.156L297.425 134.505L293.949 141.735L293.593 142.475L294.024 143.173L298.237 150L294.024 156.827L293.593 157.525L293.949 158.265L297.425 165.495L292.521 171.844L292.02 172.494L292.296 173.266L294.998 180.82L289.457 186.622L288.891 187.216L289.085 188.013L290.982 195.808L284.865 200.999L284.24 201.53L284.349 202.343L285.422 210.294L278.796 214.817L278.118 215.279L278.142 216.1L278.377 224.119L271.315 227.924L270.593 228.314L270.531 229.132L269.927 237.132L262.505 240.178L261.746 240.49L261.599 241.297L260.162 249.19L252.463 251.444L251.675 251.675L251.444 252.463L249.19 260.162L241.297 261.599L240.49 261.746L240.178 262.505L237.132 269.927L229.132 270.531L228.314 270.593L227.925 271.315L224.119 278.377L216.1 278.142L215.279 278.118L214.817 278.796L210.294 285.422L202.343 284.349L201.53 284.24L200.999 284.865L195.808 290.982L188.013 289.085L187.216 288.891L186.622 289.457L180.82 294.998L173.266 292.296L172.494 292.02L171.844 292.521L165.495 297.425L158.265 293.949L157.525 293.593L156.827 294.024L150 298.237L143.173 294.024L142.475 293.593L141.735 293.949L134.505 297.425L128.156 292.521L127.506 292.02L126.734 292.296L119.18 294.998L113.378 289.457L112.784 288.891L111.987 289.085L104.192 290.982L99.0011 284.865L98.4702 284.24L97.657 284.349L89.7064 285.422L85.1832 278.796L84.7206 278.118L83.9004 278.142L75.8813 278.377L72.0755 271.315L71.6862 270.593L70.868 270.531L62.8683 269.927L59.8215 262.505L59.5099 261.746L58.7026 261.599L50.8099 260.162L48.5555 252.463L48.325 251.675L47.5375 251.444L39.8382 249.19L38.401 241.297L38.254 240.49L37.4949 240.178L30.0735 237.132L29.4692 229.132L29.4074 228.314L28.685 227.925L21.6227 224.119L21.8579 216.1L21.882 215.279L21.2043 214.817L14.5784 210.294L15.6506 202.343L15.7602 201.53L15.1346 200.999L9.01789 195.808L10.9152 188.013L11.1093 187.216L10.5426 186.622L5.00199 180.82L7.70373 173.266L7.98006 172.494L7.4785 171.844L2.5747 165.495L6.05124 158.265L6.40682 157.525L5.97589 156.827L1.76264 150L5.97588 143.173Z"
+                                      stroke="#FAF5FF"
+                                      stroke-width="3"
+                                    />
+                                  </svg>
+                                </div>
+
+                                <div class="btn-circle__body">
+                                  <span class="btn-circle__icon">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      enable-background="new 0 0 24 24"
+                                      height="24px"
+                                      viewBox="0 0 24 24"
+                                      width="24px"
+                                      fill="#000000"
+                                    >
+                                      <g>
+                                        <rect
+                                          fill="none"
+                                          height="24"
+                                          width="24"
+                                        />
+                                      </g>
+                                      <g>
+                                        <polygon
+                                          points="6,6 6,8 14.59,8 5,17.59 6.41,19 16,9.41 16,18 18,18 18,6"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </span>
+                                  <span class="btn-circle__text">
+                                    decouvrez<br />notre agence
+                                  </span>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Aboutus block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+        <span>notre expertise &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Services block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section services-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="services-section__content">
+            <div class="services-section__tp">
+              <div
+                class="row wow animate__animated animate__fadeIn"
+                data-wow-delay="0.10s"
+              >
+                <div class="row-col col-xl-5">
+                  <div class="section-arrow">
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7">
+                  <h1 class="section-title">
+                    <span class="section-title__star">/&#10059;</span>De la
+                  </h1>
+                </div>
+                <div class="row-col col-12">
+                  <h1 class="section-title">
+                    conception au développement web<span
+                      class="section-title__star"
+                      >&#10059;/</span
+                    >
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="services-section__bp">
+              <div class="content-table">
+                <div
+                  class="content-table__item wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.20s"
+                >
+                  <div
+                    class="row align-items-center"
+                    data-uiel="toggle-table-row"
+                  >
+                    <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                      <div class="content-table__item-lp">
+                        <div class="row align-items-center">
+                          <div class="row-col col-12">
+                            <span class="content-table__title">
+                              UI/UX Design
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                      <div class="content-table__item-rp">
+                        <span class="content-table__body">
+                          Figma, Adobe xd, Invision
+                        </span>
+
+                        <div class="content-table__ctrl">
+                          <span class="toggle-control toggle-control_plus">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                            </svg>
+                          </span>
+                          <span
+                            class="toggle-control toggle-control_minus d-none"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13H5v-2h14v2z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+                    <div class="row-col col-xl-7 col-lg-7 col-12">
+                      <div class="content-table__item-bp">
+                        <p>
+                          Lorem ipsum, dolor, sit amet consectetur adipisicing
+                          elit. Esse iusto quae tempora a. Tenetur sapiente
+                          voluptas cumque corrupti aliquid natus eveniet nostrum
+                          vitae. Ad earum, ipsa. Cumque, dicta atque cupiditate.
+                        </p>
+
+                        <div class="content-subtable">
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Web site design
+                            </span>
+                            <span class="content-subtable__item-rp"> #01 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Mobile app design
+                            </span>
+                            <span class="content-subtable__item-rp"> #02 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Logo design
+                            </span>
+                            <span class="content-subtable__item-rp"> #03 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Presentation banners
+                            </span>
+                            <span class="content-subtable__item-rp"> #04 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Other graphics
+                            </span>
+                            <span class="content-subtable__item-rp"> #05 </span>
+                          </div>
+                        </div>
+                        <a href="contact-us.html" class="block-link">
+                          <div class="btn btn-large w-100">
+                            <span class="btn-large__text">
+                              Lest start a project
+                            </span>
+                            <span class="btn-large__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 0 24 24"
+                                width="24px"
+                                fill="#000000"
+                              >
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                  d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="content-table__item wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.25s"
+                >
+                  <div
+                    class="row align-items-center"
+                    data-uiel="toggle-table-row"
+                  >
+                    <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                      <div class="content-table__item-lp">
+                        <div class="row align-items-center">
+                          <div class="row-col col-12">
+                            <span class="content-table__title">
+                              Web sites development
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                      <div class="content-table__item-rp">
+                        <span class="content-table__body">
+                          HTML, CSS, Weblofw, Tilda
+                        </span>
+
+                        <div class="content-table__ctrl">
+                          <span class="toggle-control toggle-control_plus">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                            </svg>
+                          </span>
+                          <span
+                            class="toggle-control toggle-control_minus d-none"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13H5v-2h14v2z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+                    <div class="row-col col-xl-7 col-lg-7 col-12">
+                      <div class="content-table__item-bp">
+                        <p>
+                          Lorem ipsum, dolor, sit amet consectetur adipisicing
+                          elit. Esse iusto quae tempora a. Tenetur sapiente
+                          voluptas cumque corrupti aliquid natus eveniet nostrum
+                          vitae. Ad earum, ipsa. Cumque, dicta atque cupiditate.
+                        </p>
+
+                        <div class="content-subtable">
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Landing page
+                            </span>
+                            <span class="content-subtable__item-rp"> #01 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Promo sites
+                            </span>
+                            <span class="content-subtable__item-rp"> #02 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Corparative sites
+                            </span>
+                            <span class="content-subtable__item-rp"> #03 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Portfolio sites
+                            </span>
+                            <span class="content-subtable__item-rp"> #04 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Online stores
+                            </span>
+                            <span class="content-subtable__item-rp"> #05 </span>
+                          </div>
+                        </div>
+
+                        <a href="contact-us.html" class="block-link">
+                          <div class="btn btn-large w-100">
+                            <span class="btn-large__text">
+                              Lest start a project
+                            </span>
+                            <span class="btn-large__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 0 24 24"
+                                width="24px"
+                                fill="#000000"
+                              >
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                  d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="content-table__item wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.30s"
+                >
+                  <div
+                    class="row align-items-center"
+                    data-uiel="toggle-table-row"
+                  >
+                    <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                      <div class="content-table__item-lp">
+                        <div class="row align-items-center">
+                          <div class="row-col col-12">
+                            <span class="content-table__title">
+                              Back-end coding
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                      <div class="content-table__item-rp">
+                        <span class="content-table__body">
+                          PHP7, Python, Java, Docker, NodeJS
+                        </span>
+
+                        <div class="content-table__ctrl">
+                          <span class="toggle-control toggle-control_plus">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                            </svg>
+                          </span>
+                          <span
+                            class="toggle-control toggle-control_minus d-none"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13H5v-2h14v2z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+                    <div class="row-col col-xl-7 col-lg-7 col-12">
+                      <div class="content-table__item-bp">
+                        <p>
+                          Lorem ipsum, dolor, sit amet consectetur adipisicing
+                          elit. Esse iusto quae tempora a. Tenetur sapiente
+                          voluptas cumque corrupti aliquid natus eveniet nostrum
+                          vitae. Ad earum, ipsa. Cumque, dicta atque cupiditate.
+                        </p>
+
+                        <div class="content-subtable">
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Development based on frameworks
+                            </span>
+                            <span class="content-subtable__item-rp"> #01 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Integration with third-party services,
+                              solutions
+                            </span>
+                            <span class="content-subtable__item-rp"> #02 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Working with SQL/NoSQL DBMS
+                            </span>
+                            <span class="content-subtable__item-rp"> #03 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Architecture design and work with high
+                              loads
+                            </span>
+                            <span class="content-subtable__item-rp"> #04 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Code and architecture audit
+                            </span>
+                            <span class="content-subtable__item-rp"> #05 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Refactoring
+                            </span>
+                            <span class="content-subtable__item-rp"> #06 </span>
+                          </div>
+                        </div>
+
+                        <a href="contact-us.html" class="block-link">
+                          <div class="btn btn-large w-100">
+                            <span class="btn-large__text">
+                              Lest start a project
+                            </span>
+                            <span class="btn-large__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 0 24 24"
+                                width="24px"
+                                fill="#000000"
+                              >
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                  d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="content-table__item wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.35s"
+                >
+                  <div
+                    class="row align-items-center"
+                    data-uiel="toggle-table-row"
+                  >
+                    <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                      <div class="content-table__item-lp">
+                        <div class="row align-items-center">
+                          <div class="row-col col-12">
+                            <span class="content-table__title">
+                              Front-end coding
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                      <div class="content-table__item-rp">
+                        <span class="content-table__body">
+                          Vue.js, NodeJS, React, Nuxt.js
+                        </span>
+
+                        <div class="content-table__ctrl">
+                          <span class="toggle-control toggle-control_plus">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                            </svg>
+                          </span>
+                          <span
+                            class="toggle-control toggle-control_minus d-none"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13H5v-2h14v2z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+                    <div class="row-col col-xl-7 col-lg-7 col-12">
+                      <div class="content-table__item-bp">
+                        <p>
+                          Lorem ipsum, dolor, sit amet consectetur adipisicing
+                          elit. Esse iusto quae tempora a. Tenetur sapiente
+                          voluptas cumque corrupti aliquid natus eveniet nostrum
+                          vitae. Ad earum, ipsa. Cumque, dicta atque cupiditate.
+                        </p>
+
+                        <div class="content-subtable">
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Cross-browser layout
+                            </span>
+                            <span class="content-subtable__item-rp"> #01 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Adaptive layout
+                            </span>
+                            <span class="content-subtable__item-rp"> #02 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Frontend and complex JS (Angular, React
+                              and other frameworks)
+                            </span>
+                            <span class="content-subtable__item-rp"> #03 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Manual and automated frontend testing
+                            </span>
+                            <span class="content-subtable__item-rp"> #04 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Audit of code implemented by other teams
+                            </span>
+                            <span class="content-subtable__item-rp"> #05 </span>
+                          </div>
+                        </div>
+
+                        <a href="contact-us.html" class="block-link">
+                          <div class="btn btn-large w-100">
+                            <span class="btn-large__text">
+                              Lest start a project
+                            </span>
+                            <span class="btn-large__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 0 24 24"
+                                width="24px"
+                                fill="#000000"
+                              >
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                  d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="content-table__item content-table__item_bb wow animate__animated animate__fadeIn"
+                  data-wow-delay="0.40s"
+                >
+                  <div
+                    class="row align-items-center"
+                    data-uiel="toggle-table-row"
+                  >
+                    <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                      <div class="content-table__item-lp">
+                        <div class="row align-items-center">
+                          <div class="row-col col-12">
+                            <span class="content-table__title">
+                              Mobile apps development
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                      <div class="content-table__item-rp">
+                        <span class="content-table__body">
+                          Kotlin, Swift, Flutter, Solid
+                        </span>
+
+                        <div class="content-table__ctrl">
+                          <span class="toggle-control toggle-control_plus">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+                            </svg>
+                          </span>
+                          <span
+                            class="toggle-control toggle-control_minus d-none"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <path d="M0 0h24v24H0V0z" fill="none" />
+                              <path d="M19 13H5v-2h14v2z" />
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+                    <div class="row-col col-xl-7 col-lg-7 col-12">
+                      <div class="content-table__item-bp">
+                        <p>
+                          Lorem ipsum, dolor, sit amet consectetur adipisicing
+                          elit. Esse iusto quae tempora a. Tenetur sapiente
+                          voluptas cumque corrupti aliquid natus eveniet nostrum
+                          vitae. Ad earum, ipsa. Cumque, dicta atque cupiditate.
+                        </p>
+
+                        <div class="content-subtable">
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; iOS/Android native development
+                            </span>
+                            <span class="content-subtable__item-rp"> #01 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Development on cross-platform solutions
+                            </span>
+                            <span class="content-subtable__item-rp"> #02 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Middleware development
+                            </span>
+                            <span class="content-subtable__item-rp"> #03 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Code and architecture audit
+                            </span>
+                            <span class="content-subtable__item-rp"> #04 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Refactoring and refinement
+                            </span>
+                            <span class="content-subtable__item-rp"> #05 </span>
+                          </div>
+                          <div class="content-subtable__item">
+                            <span class="content-subtable__item-lp">
+                              &#10059; Ongoing application support
+                            </span>
+                            <span class="content-subtable__item-rp"> #06 </span>
+                          </div>
+                        </div>
+
+                        <a href="contact-us.html" class="block-link">
+                          <div class="btn btn-large w-100">
+                            <span class="btn-large__text">
+                              Lest start a project
+                            </span>
+                            <span class="btn-large__icon">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 0 24 24"
+                                width="24px"
+                                fill="#000000"
+                              >
+                                <path d="M0 0h24v24H0V0z" fill="none" />
+                                <path
+                                  d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Services block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+        <span>ils nous ont fait confiance &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Clients block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section clients-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="clients-section__content">
+            <div class="clients-section__tp">
+              <div class="row">
+                <div class="row-col col-xl-5 col-12">
+                  <div class="section-arrow">
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1
+                    class="section-title wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <span class="section-title__star">/&#10059;</span>nos
+                    clients<span class="section-title__star">&#10059;/</span>
+                  </h1>
+
+                  <p
+                    class="section-description wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.30s"
+                  >
+                    Nous sommes fiers d'avoir eu à travailler <br />avec ces
+                    marques
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="clients-section__bp">
+              <div class="client-logos">
+                <div class="row">
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item">
+                      <img src="./dist/images/clients/logo-3.png" alt="IMG" />
+                    </div>
+                  </div>
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item client-logos__item_1">
+                      <img src="./dist/images/clients/logo-2.png" alt="IMG" />
+                    </div>
+                  </div>
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item client-logos__item_1">
+                      <img src="./dist/images/clients/logo-3.png" alt="IMG" />
+                    </div>
+                  </div>
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item client-logos__item_1">
+                      <img src="./dist/images/clients/logo-4.png" alt="IMG" />
+                    </div>
+                  </div>
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item client-logos__item_1">
+                      <img src="./dist/images/clients/logo-5.png" alt="IMG" />
+                    </div>
+                  </div>
+                  <div class="col col-lg-2 col-2">
+                    <div class="client-logos__item client-logos__item_1">
+                      <img src="./dist/images/clients/logo-6.png" alt="IMG" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="client-logos__div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Clients block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+        <span>Maintenant parlons de votre projet &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Homepage [Contacts block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section sayhello-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="sayhello-section__content">
+            <div class="sayhello-section__tp">
+              <div class="row">
+                <div class="row-col col-xl-5 col-12">
+                  <div
+                    class="section-arrow wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1
+                    class="section-title wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <span class="section-title__star">/&#10059;</span>Vous
+                    pouvez nous joindre<span class="section-title__star"
+                      >&#10059;/</span
+                    >
+                  </h1>
+
+                  <p
+                    class="section-description wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.20s"
+                  >
+                    Avez-vous un projet à l'esprit?<br />
+                    Parlons de vos besoins !
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sayhello-section__bp">
+              <div class="content-table">
+                <a
+                  href="mailto:hello@aside-agency.ci"
+                  class="content-table__link"
+                >
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.35s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Adresse email
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            hello@aside-agency.ci
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.facebook.com" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.40s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Facebook
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body"> //Digitary </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.instagram.com" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.45s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Instagram
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            //Digitary_Team
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="tel:+23344113343" class="content-table__link">
+                  <div
+                    class="content-table__item content-table__item_bb wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.50s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                whatsapp
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            +225 04 05 512 512
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="tel:+2250405512512" class="content-table__link">
+                  <div
+                    class="content-table__item content-table__item_bb wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.50s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                télephone
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            +225 04 05 512 512
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="row wow animate__animated animate__fadeIn"
+              data-wow-delay="0.50s"
+            >
+              <div class="row-col col-xl-5 col-lg-5 col-12"></div>
+              <div class="row-col col-xl-7 col-lg-7 col-12">
+                <a href="contact-us.html" class="d-block">
+                  <div class="btn btn-large">
+                    <span class="btn-large__text"> ecrivez-vous </span>
+                    <span class="btn-large__icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        width="24px"
+                        fill="#000000"
+                      >
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                          d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="page-section footer-section wow animate__animated animate__fadeIn"
+      data-wow-delay="1s"
+    >
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="footer-section__content">
+            <div class="row">
+              <div class="mobile-order-1 col align-content-center">
+                <div class="footer-section__lp">
+                  <span> ©2023 Aside Studio.</span>
+                </div>
+              </div>
+              <div class="mobile-order-1 col align-content-center">
+                <div class="footer-section__rp">
+                  <div class="footer-section__cta">
+                    <span data-app="scroll-to-top">Remontez en haut</span>
+                    <span class="btn-large__icon2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        width="24px"
+                        fill="#fff"
+                      >
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                          d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

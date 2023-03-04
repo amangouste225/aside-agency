@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Contactez-nous - Aside Studio</title>
+    <meta
+      name="description"
+      content="Digitary - VCard, CV, Resume, Agency, Portfolio Template"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- ~~~~~~~~~~~~~~~~~ Style CSS ~~~~~~~~~~~~~~~~~ -->
+    <link
+      rel="stylesheet"
+      href="./dist/css/css-ready/vendor/bootstrapv5-0-2/bootstrapv5-0-2.css"
+    />
+    <link rel="stylesheet" href="./distlibs/animate.min.css" />
+    <link rel="stylesheet" href="./dist/css/css-ready/styles.master.css" />
+
+    <!-- ~~~~~~~~~~~~~~~~~ JS Vendor ~~~~~~~~~~~~~~~~~ -->
+    <script src="./dist/libs/jquery/jquery-3.6.0.min.js" defer></script>
+    <script src="./dist/libs/swiper-js/swiper-bundle.min.js" defer></script>
+    <script src="./dist/libs/wowjs/wow.min.js" defer></script>
+
+    <!-- ~~~~~~~~~~~~~~~~~ JS Files (Main JS) ~~~~~~~~~~~~~~~~~ -->
+    <script src="./dist/js/script.master.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  </head>
+  <body class="contact-us-page">
+    <!-- ~~~~~~~~~~~~~~~~~ Main navigation header [START] ~~~~~~~~~~~~~~~~~ -->
+    <header
+      class="page-section header-section wow animate__animated animate__fadeIn"
+      data-wow-delay="0.05s"
+    >
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="header-section__content">
+            <div class="row">
+              <div class="row-col col-lg-5 col-md-4 col-6">
+                <div class="header-section__logo">
+                  <a href="index.html">
+                    <img src="./dist/images/logo.svg" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="row-col col-lg-7 col-md-8 col-6">
+                <div class="header-section__rp">
+                  <div class="header-section__nav">
+                    <a
+                      href="index.html"
+                      class="header-section__nav-active animate__fadeIn"
+                      data-wow-delay="0.07s"
+                    >
+                      Accueil
+                    </a>
+                    <a
+                      href="about-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.13s"
+                    >
+                      Agence
+                    </a>
+                    <a
+                      href="projects.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.09s"
+                    >
+                      Réalisations (15)
+                    </a>
+                    <a
+                      href="services.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.11s"
+                    >
+                      Services
+                    </a>
+
+                    <a
+                      href="contact-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.15s"
+                    >
+                      Contact
+                    </a>
+                  </div>
+                  <div class="header-section__cta">
+                    <a
+                      href="contact-us.html"
+                      class="wow animate__animated animate__fadeIn"
+                      data-wow-delay="0.30s"
+                    >
+                      <div class="btn btn-small">
+                        <span class="btn-small__text"> Contactez-nous </span>
+                        <span class="btn-small__icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24px"
+                            viewBox="0 0 24 24"
+                            width="24px"
+                            fill="#000000"
+                          >
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                              d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="header-section__burger">
+                    <div class="burger-btn" onclick="toggle_mobile_nav();">
+                      <span class="burger-btn__line burger-btn__line_1"></span>
+                      <span class="burger-btn__line burger-btn__line_2"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Mobile navigation menu [START] ~~~~~~~~~~~~~~~~~ -->
+    <div class="mobile-navigation" data-uiel="mobile-navbar">
+      <div class="mobile-navigation__header">
+        <div class="row">
+          <div class="row-col col-6">
+            <div class="mobile-navigation__logo">
+              <a href="index.html">
+                <img src="./dist/images/logo.svg" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="row-col col-6">
+            <div class="mobile-navigation__close">
+              <span onclick="toggle_mobile_nav();">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-navigation__body">
+        <div class="mobile-navigation__links">
+          <a href="index.html" class="mobile-nav-active" data-wow-delay="0.10s">
+            <span class="link-text"> &#10059; Accueil </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="about-us.html">
+            <span class="link-text"> &#10059; Agence </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="projects.html">
+            <span class="link-text"> &#10059; Réalisations (15) </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a href="services.html">
+            <span class="link-text"> &#10059; Services </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+
+          <a href="contact-us.html">
+            <span class="link-text"> &#10059; Contact </span>
+            <span class="link-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <rect fill="none" height="24" width="24" />
+                <path
+                  d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="mobile-navigation__cta">
+          <a href="contact-us.html" class="block-link">
+            <div class="btn btn-large">
+              <span class="btn-large__text">On commence un projet? </span>
+              <span class="btn-large__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ~~~~~~~~~~~~~~~~~ Mobile navigation menu [END] ~~~~~~~~~~~~~~~~~ -->
+
+    <!-- ~~~~~~~~~~~~~~~~~ Contact us [Inquary form block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section contact-us-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="contact-us-section__content">
+            <div class="contact-us-section__tp">
+              <div class="row">
+                <div class="row-col col-xl-5 col-12">
+                  <div
+                    class="section-arrow wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1
+                    class="section-title wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <span class="section-title__star">/&#10059;</span>Just send
+                    it<span class="section-title__star">&#10059;/</span>
+                  </h1>
+
+                  <p
+                    class="section-description wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.20s"
+                  >
+                    Let's discuss your project and see how<br />your dreams can
+                    turn into amazing reality
+                  </p>
+                </div>
+                <div class="row-col col-12">
+                  <div
+                    class="contact-us-form wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.30s"
+                  >
+                    <form
+                      class="form"
+                      data-app="enquiry-form"
+                      autocomplete="off"
+                    >
+                      <div class="form__inputs">
+                        <div class="row">
+                          <div class="row-col col-xl-5 col-lg-5 col-12">
+                            <div class="form-group">
+                              <div class="form-group__input">
+                                <input
+                                  autocomplete="off"
+                                  autofocus
+                                  type="text"
+                                  name="fullname"
+                                  class="form-control"
+                                  placeholder="What is your name?"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="row-col col-xl-7 col-lg-7 col-12 form-group-bl"
+                          >
+                            <div class="form-group">
+                              <div class="form-group__input">
+                                <input
+                                  autocomplete="off"
+                                  type="email"
+                                  name="email"
+                                  class="form-control"
+                                  placeholder="And your email address?"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row-col col-xl-12 col-12">
+                            <div class="form-group form-group_bt">
+                              <div class="form-group__input">
+                                <textarea
+                                  autocomplete="off"
+                                  rows="5"
+                                  name="message"
+                                  class="form-control"
+                                  placeholder="Write your message..."
+                                ></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="row-col col-xl-5 col-12"></div>
+                        <div class="row-col col-xl-7 col-12">
+                          <div class="form-group form-group_mb">
+                            <div class="form-check">
+                              <input
+                                name="tos_agree"
+                                type="checkbox"
+                                class="form-check-input"
+                                id="form-tos-agree"
+                              />
+                              <label
+                                class="form-check-label"
+                                for="form-tos-agree"
+                                >By clicking the «Submit» button, you agree to
+                                the
+                                <a href="privay-policy.html" target="_blank"
+                                  >privacy policy</a
+                                ></label
+                              >
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-large">
+                              <span class="btn-large__text">
+                                Submit an inquiry
+                              </span>
+                              <span class="btn-large__icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  height="24px"
+                                  viewBox="0 0 24 24"
+                                  width="24px"
+                                  fill="#000000"
+                                >
+                                  <path d="M0 0h24v24H0V0z" fill="none" />
+                                  <path
+                                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7h-2z"
+                                  />
+                                </svg>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Contact us [Inquary form block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <div class="marquee-divider-section">
+      <div class="marquee__animation">
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+      </div>
+      <div class="marquee__animation-div"></div>
+      <div class="marquee__animation marquee__animation_right">
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+        <span>Let's collaborate &#10022;</span>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~ Contact us [Contacts block START] ~~~~~~~~~~~~~~~~~ -->
+    <section class="page-section sayhello-section">
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="sayhello-section__content">
+            <div class="sayhello-section__tp">
+              <div class="row">
+                <div class="row-col col-xl-5 col-12">
+                  <div
+                    class="section-arrow wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <svg
+                      width="780"
+                      height="74"
+                      viewBox="0 0 780 74"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M765.033 35C753.675 29.9966 741.015 19.8517 737.045 1.42111L740.955 0.578888C746.279 25.2964 768.826 33.8351 779.606 35H780V39H779.606C768.826 40.1649 746.279 48.7036 740.955 73.4211L737.045 72.5789C741.015 54.1483 753.675 44.0034 765.033 39H0V35H765.033Z"
+                        fill="#FAF5FF"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row-col col-xl-7 col-12">
+                  <h1
+                    class="section-title wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.10s"
+                  >
+                    <span class="section-title__star">/&#10059;</span>Just say
+                    hello<span class="section-title__star">&#10059;/</span>
+                  </h1>
+
+                  <p
+                    class="section-description wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.20s"
+                  >
+                    Do you have a project in mind? <br />
+                    Let's talk about your business needs!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sayhello-section__bp">
+              <div class="content-table">
+                <a href="https://www.t.me" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.25s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Telegram
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            @digitary_contact
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.behance.net" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.30s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Behance portfolio
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            //Digitary_studio
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="mailto:hello@digitary.com" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.35s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Email address
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            hello@digitary.com
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.facebook.com" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.40s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Facebook
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body"> //Digitary </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.instagram.com" class="content-table__link">
+                  <div
+                    class="content-table__item wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.45s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title">
+                                Instagram
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            //Digitary_Team
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="tel:+23344113343" class="content-table__link">
+                  <div
+                    class="content-table__item content-table__item_bb wow animate__animated animate__fadeIn"
+                    data-wow-delay="0.50s"
+                  >
+                    <div class="row align-items-center">
+                      <div class="row-col col-xl-5 col-lg-5 col-md-5 col-10">
+                        <div class="content-table__item-lp">
+                          <div class="row align-items-center">
+                            <div class="row-col col-12">
+                              <span class="content-table__title"> Phone </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row-col col-xl-7 col-lg-7 col-md-7 col-2">
+                        <div class="content-table__item-rp">
+                          <span class="content-table__body">
+                            +23 34 411 3343
+                          </span>
+
+                          <div class="content-table__ctrl">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              enable-background="new 0 0 24 24"
+                              height="24px"
+                              viewBox="0 0 24 24"
+                              width="24px"
+                              fill="#000000"
+                            >
+                              <rect fill="none" height="24" width="24" />
+                              <path
+                                d="M15,5l-1.41,1.41L18.17,11H2V13h16.17l-4.59,4.59L15,19l7-7L15,5z"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~ Contact us [Contacts block END] ~~~~~~~~~~~~~~~~~ -->
+
+    <footer
+      class="page-section footer-section wow animate__animated animate__fadeIn"
+      data-wow-delay="1s"
+    >
+      <div class="page-offset">
+        <div class="page-offset__inner">
+          <div class="footer-section__content">
+            <div class="row">
+              <div class="mobile-order-1 col align-content-center">
+                <div class="footer-section__lp">
+                  <span> ©2023 Aside Studio.</span>
+                </div>
+              </div>
+              <div class="mobile-order-1 col align-content-center">
+                <div class="footer-section__rp">
+                  <div class="footer-section__cta">
+                    <span data-app="scroll-to-top">Remontez en haut</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      "use strict"
+
+      jQuery(document).ready(function ($) {
+        var enquiry_form = $("[data-app=enquiry-form]")
+
+        var enquiry_form_validator = enquiry_form.validate({
+          ignore: "",
+          errorElement: "span",
+          errorClass: "form-control-feedback-error",
+          errorPlacement: function (error, element) {
+            $(element).closest("div.form-group").append(error)
+          },
+          rules: {
+            fullname: {
+              required: true,
+              minlength: 3,
+              maxlength: 65,
+              normalizer: function (value) {
+                return $.trim(value)
+              },
+            },
+            email: {
+              required: true,
+              minlength: 6,
+              email: true,
+              maxlength: 65,
+              normalizer: function (value) {
+                return $.trim(value)
+              },
+            },
+            message: {
+              required: true,
+              minlength: 15,
+              maxlength: 300,
+              normalizer: function (value) {
+                return $.trim(value)
+              },
+            },
+            tos_agree: {
+              required: true,
+            },
+          },
+          messages: {
+            fullname: {
+              required: "Please enter your full name",
+              minlength: "Name must be at least 3 characters",
+              maxlength: "Name must not be longer than 65 characters",
+            },
+            email: {
+              required: "Please enter your email address",
+              minlength: "E-mail address must be at least 6 characters",
+              maxlength: "E-mail address must not be longer than 65 characters",
+              email: "Please enter a valid email address",
+            },
+            message: {
+              required: "Please briefly describe the essence of your project",
+              minlength:
+                "Project description should not be less than 15 characters",
+              maxlength:
+                "Project description should not be longer than 300 characters",
+            },
+            tos_agree: {
+              required: false,
+            },
+          },
+        })
+
+        enquiry_form.ajaxForm({
+          url: "php/send_email.php",
+          type: "POST",
+          dataType: "json",
+          beforeSend: function (xhr) {
+            enquiry_form
+              .find("button[type=submit]")
+              .attr("disabled", "true")
+              .find("span.btn-large__text")
+              .text("Please wait...")
+          },
+          success: function (data) {
+            enquiry_form.get(0).reset()
+
+            digitary_notification_message(
+              "Thank You! Your message has been sent.",
+              "success"
+            )
+          },
+          complete: function () {
+            enquiry_form
+              .find("button[type=submit]")
+              .removeAttr("disabled")
+              .find("span.btn-large__text")
+              .text("Submit an enquiry")
+          },
+        })
+      })
+    </script>
+  </body>
+</html>
